@@ -11,7 +11,7 @@
         <v-list-item v-for="(p, i) in production" :key="i">
           <v-list-item-content>
             <v-btn :href="p.href" target="_blank" text>
-              <span class="font-weight-black">{{ p.text }}</span>
+              <span class="font-weight-black text-decoration-underline">{{ p.text }}</span>
               - {{ p.subtitle }}
             </v-btn>
           </v-list-item-content>
