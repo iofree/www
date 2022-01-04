@@ -1,0 +1,26 @@
+name: Build and Deploy
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2.3.1
+
+      - uses: pnpm/action-setup@v2.0.1
+        with:
+          version: 6.0.2
+
+      - name: Install and Build 🔧 
+        run: |
+          npm install -g @vue/cli
+          npm install -g @vue/cli-service
+          pnpm install
+          pnpm run build
+          cp CNAME dist/ && ls dist
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.7
+        with:
+          branch: gh-pages
+          folder: dist
