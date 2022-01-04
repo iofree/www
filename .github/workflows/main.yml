@@ -13,7 +13,6 @@ jobs:
 
       - name: Install and Build 🔧 
         run: |
-          npm install -g @vue/cli
           npm install -g @vue/cli-service
           pnpm install
           pnpm run build
