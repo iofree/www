@@ -16,7 +16,8 @@
 
     <v-footer color="white">
       <v-card-text class="text-center">
-        {{ domain }} | &copy; {{ new Date().getFullYear() }}
+        <a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2022013870号-1</a>
+        | &copy; {{ new Date().getFullYear() }}
 
         <v-btn :href=i.href v-for="i in info" :key="i" target="_blank" icon>
           <v-icon size="20px">{{ i.icon }}</v-icon>
