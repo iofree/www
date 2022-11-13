@@ -47,6 +47,21 @@ export default {
         subtitle: '帮助你不忘记任何一件小事',
         href: 'https://reminder.iofree.xyz',
       },
+      {
+        text: '人生笔记',
+        subtitle: '离线私人朋友圈，写日记,贴视频,贴照片,永久保存',
+        href: 'https://apps.apple.com/cn/app/id1625209452',
+      },
+      {
+        text: '友窗',
+        subtitle: '分享你的心动时刻到好友桌面',
+        href: 'https://apps.apple.com/cn/app/id1614830371',
+      },
+      {
+        text: 'Doit TODO',
+        subtitle: '支持多项目分类管理，支持日历视角，习惯打卡，通知提醒的 TODO 工具',
+        href: 'https://apps.apple.com/cn/app/id1623401995',
+      },
     ],
     openSourceProject: [
       {
