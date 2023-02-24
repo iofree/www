@@ -50,7 +50,7 @@ export default {
       {
         text: '人生笔记',
         subtitle: '离线私人朋友圈，写日记,贴视频,贴照片,永久保存',
-        href: 'https://apps.apple.com/cn/app/id1625209452',
+        href: 'https://lifelog.iofree.xyz/',
       },
       {
         text: '友窗',
