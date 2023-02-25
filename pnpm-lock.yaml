@@ -254,6 +254,10 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
+  /caniuse-lite/1.0.30001457:
+    resolution: {integrity: sha512-SDIV6bgE1aVbK6XyxdURbUE89zY7+k1BBBaOwYwkNCglXlel/E7mELiHC64HQ+W0xSKlqWhV9Wh7iHxUjMs4fA==}
+    dev: true
+
   /chalk/2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
     engines: {node: '>=4'}
@@ -9231,7 +9235,7 @@ packages:
     hasBin: true
     dependencies:
       browserslist: registry.npmmirror.com/browserslist/4.19.1
-      caniuse-lite: registry.npmmirror.com/caniuse-lite/1.0.30001294
+      caniuse-lite: 1.0.30001457
       normalize-range: registry.nlark.com/normalize-range/0.1.2
       num2fraction: registry.nlark.com/num2fraction/1.2.2
       picocolors: registry.npmmirror.com/picocolors/0.2.1
@@ -9357,7 +9361,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: registry.npmmirror.com/caniuse-lite/1.0.30001294
+      caniuse-lite: 1.0.30001457
       electron-to-chromium: registry.npmmirror.com/electron-to-chromium/1.4.30
       escalade: registry.nlark.com/escalade/3.1.1
       node-releases: registry.npmmirror.com/node-releases/2.0.1
@@ -9461,15 +9465,9 @@ packages:
     version: 3.0.0
     dependencies:
       browserslist: registry.npmmirror.com/browserslist/4.19.1
-      caniuse-lite: registry.npmmirror.com/caniuse-lite/1.0.30001294
+      caniuse-lite: 1.0.30001457
       lodash.memoize: registry.nlark.com/lodash.memoize/4.1.2
       lodash.uniq: registry.nlark.com/lodash.uniq/4.5.0
-    dev: true
-
-  registry.npmmirror.com/caniuse-lite/1.0.30001294:
-    resolution: {integrity: sha512-LiMlrs1nSKZ8qkNhpUf5KD0Al1KCBE3zaT7OLOwEkagXMEDij98SiOovn9wxVGQpklk9vVC/pUSqgYmkmKOS8g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/caniuse-lite/download/caniuse-lite-1.0.30001294.tgz}
-    name: caniuse-lite
-    version: 1.0.30001294
     dev: true
 
   registry.npmmirror.com/chalk/2.4.2:
