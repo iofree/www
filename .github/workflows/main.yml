@@ -11,8 +11,9 @@ jobs:
         with:
           version: 6.0.2
 
-      - name: Install and Build 🔧 
+      - name: Install and Build 🔧
         run: |
+          export NODE_OPTIONS=--openssl-legacy-provider
           npm install -g @vue/cli-service
           pnpm install
           pnpm run build
