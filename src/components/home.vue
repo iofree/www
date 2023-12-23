@@ -18,18 +18,6 @@
         </v-list-item>
       </v-col>
 
-      <v-col class="mb-5" cols="12">
-        <h2 class="headline font-weight-bold mb-3">开源项目</h2>
-        <v-list-item v-for="(p, i) in openSourceProject" :key="i">
-          <v-list-item-content>
-            <v-btn :href="p.href" target="_blank" text>
-              <span class="text-capitalize font-weight-black text-decoration-underline">{{ p.text }}</span>
-              - <span class="text-capitalize">{{ p.subtitle }}</span>
-            </v-btn>
-          </v-list-item-content>
-        </v-list-item>
-      </v-col>
-
     </v-row>
   </v-container>
 </template>
@@ -56,13 +44,6 @@ export default {
         text: '不忘提醒',
         subtitle: '帮助你不忘记任何一件小事',
         href: 'https://reminder.iofree.xyz',
-      },
-    ],
-    openSourceProject: [
-      {
-        text: 'gev',
-        subtitle: '比标准库更快的 TCP 网络库',
-        href: 'https://github.com/Allenxuxu/gev',
       },
     ],
   }),
