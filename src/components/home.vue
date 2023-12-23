@@ -45,6 +45,11 @@ export default {
         subtitle: '帮助你不忘记任何一件小事',
         href: 'https://reminder.iofree.xyz',
       },
+      {
+        text: 'PasteQ',
+        subtitle: '搜索复制粘贴,纯快捷键,无需鼠标',
+        href: 'https://apps.apple.com/cn/app/id6443971843?mt=12?mt=12',
+      }
     ],
   }),
 }
